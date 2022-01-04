@@ -1,0 +1,99 @@
+.menu-icon{
+    position: fixed;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 5px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    color: #a89972;
+    cursor: pointer;
+    transition: all .4s;
+    left:20px;
+    top: 0;
+}
+.menu-icon:hover{
+    background-color: #fff;
+    color: #92ccbf;
+}
+.menu{
+    height: 100%;
+    position: fixed;
+    background-color:#fff;
+    right: 1;
+    top: 0;
+    overflow: hidden;
+    transition: all .2s;
+}
+#chk{
+    position: absolute;
+    left:0 ;
+    top: 0;
+}
+#chk:checked ~ .bg{
+    display: block;
+}
+#chk:checked ~ #principal{
+    transform: translateX(195px);
+}
+#principal{
+    width: 150px;
+    left: -200px;
+}
+#sobre, #contato{
+    width: 150px;
+    left: -180px;
+}
+#sobre:target, #contato:target{
+    transform: translate(170px);
+}
+.midia{
+    margin-top: 5px;
+    background-color: #79a7a8;
+    border-left: solid  #fff;
+}
+.voltar{
+    margin-top: 60px;
+    background-color: #899fb1;
+    border-left: solid  #fff;
+}
+ul{
+    list-style: none;
+}
+ul li a {
+    display: block;
+    font-size: 18px;
+    padding: 10px;
+    border-bottom: solid 1px #d1c7c7;
+    color: #181717;
+    text-decoration: none;
+    transition: all.2s;
+}
+
+ul li span{
+    float: right;
+    padding-left: 10px;
+}
+
+ul li a:hover{
+    background: #b18a8b;
+}
+
+input[type="checkbox"]{
+    display: none;
+}
+.bg{
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    background-color: rgba(0,0,0,0);
+    display: none;
+}
+
+.text{
+    margin: 15px;
+    font-size: 20px;
+    color: rgb(20, 19, 19);
+}

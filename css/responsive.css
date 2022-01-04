@@ -1,0 +1,19 @@
+@media(max-width:768px){
+    .main-card .cards .card{
+        width: calc(100% / 2 -10px);
+        margin: 20px 0 10px 0;
+    }
+    .main-card .cards .card:hover{
+        transform: translateY(-15px);
+    }
+}
+
+@media(max-width:600px){
+    .main-card .cards .card{
+        width: calc(100% / 2 -10px);
+        margin: 5%;
+    }
+    .main-card .cards .card:hover{
+        transform: translateY(-15px);
+    }
+}

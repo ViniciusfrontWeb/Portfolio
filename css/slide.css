@@ -1,0 +1,32 @@
+.control{
+    top: 12%;
+    width: 15%;
+    height: 19%;
+    margin: 3px;
+    left: 25%;
+    align-items: center;
+    background-size: 100% 100%;
+    transform: translate(50%,-50%);
+    position: absolute;
+    animation: slide 9s infinite linear;
+}
+@keyframes slide {
+    0%{
+        background-image: url('../slide/argentina.jpg');
+    }
+    25%{
+        background-image: url('../slide/brasil.png');
+    }
+    45%{
+        background-image: url('../slide/romênia.png');
+    }
+    60%{
+        background-image: url('../slide/united\ states.png');
+    }
+    80%{
+        background-image: url('../slide/peru.png');
+    }
+    100%{
+        background-image: url('../slide/france.png');
+    }
+}
