@@ -1,9 +1,10 @@
 
 .control{
+    display: block;
     top: 10%;
     width: 10%;
-    height: 80px;
-    margin: 25px;
+    height:200px;
+    margin: 50px;
     left: 27%;
     align-items: center;
     justify-content: center;
@@ -20,7 +21,7 @@
         background-image: url('../slide/brasil.png');
     }
     45%{
-        background-image: url('../slide/romênia.png');
+        background-image: url('../slide/venezuela.png');
     }
     60%{
         background-image: url('../slide/united\ states.png');
@@ -29,6 +30,6 @@
         background-image: url('../slide/peru.png');
     }
     100%{
-        background-image: url('../slide/france.png');
+        background-image: url('../slide/paraguay.png');
     }
 }

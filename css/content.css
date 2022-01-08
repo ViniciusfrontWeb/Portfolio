@@ -1,38 +1,23 @@
-.card-main{   
-    position: relative;
-    width:222px;
-    height: 100px;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: .3s;
-    overflow: hidden;
-
-}
-.card-main:hover{
-  
-    height: 320px;
-}
-
-.card-main img{
-    width: 80%;
-    border-radius: 10px;
-    transition: .5s;
-}
-.card-main:hover img{
-    border-radius: 2px 2px 0 0;
-}
-.card-main .card-body{
-    padding: .5rem .85rem 1rem;
-    height: 100px;
-}
-
-.card-main .card-body p{
-    text-align: justify;
-    font-size: .9rem;
-    line-height: 20px;
-}
-.card-main.card-body div{
-    text-align: right;
+.horizontal_slider{
+    display: flex;
     width: 100%;
+    margin-top: 200px;
+    padding:20px;
+    overflow-x: scroll;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.slider_container{
+    display: block;
+    white-space: nowrap;
+}
+
+.item{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+.item img{
+    width: 150px;
 }
