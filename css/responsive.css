@@ -1,6 +1,6 @@
 @media (max-width:768px) {
     .container{
-        width: 400px;
+        width: 200px;
     }
     .container .box:hover .content{
         transform: translate(0,35px);
