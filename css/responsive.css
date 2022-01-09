@@ -1,6 +1,7 @@
 @media (max-width:768px) {
     .container{
         width: 400px;
+        width: 50%;
         justify-content: center;
         align-items: center;
     }
