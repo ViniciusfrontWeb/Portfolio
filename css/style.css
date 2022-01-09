@@ -7,7 +7,9 @@
 body{
    
     background: #eee;
-    user-select: none;
+    align-items: center;
+    min-width: 100vh;
+    
 }
 header{
     width: 100%;

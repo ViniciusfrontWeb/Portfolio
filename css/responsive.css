@@ -1,0 +1,10 @@
+@media (max-width:768px) {
+    
+    .container .box:hover .content{
+        transform: translate(0,35px);
+    }
+
+    .container .box:hover .imgBx{
+        transform: translate(0,-35px);
+    }
+}
