@@ -11,9 +11,8 @@
     }
     .horizontal_slider{
         display: flex;
-        width: 30%;
-        height: 50px;
-        margin: 5px;
+        width: 20%;
+        height: 90px;
         overflow-x: scroll;
         box-sizing: border-box;
         cursor: pointer;
@@ -26,4 +25,9 @@
     .container .box:hover .imgBx{
         transform: translate(0,-10px);
     }
+.item img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
 }
