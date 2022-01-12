@@ -1,15 +1,30 @@
-@media (max-width:768px) {
-    .container{
-        width: 400px;
-        width: 50%;
-        justify-content: center;
-        align-items: center;
+@media (max-width:568px) {
+    .control{
+        display: block;
+        top: 15%;
+        width: 10%;
+        height:60px;
+        
+        background-size: 100% 100%;
+        transform: translate(50%,-50%);
+        position: absolute;
+        animation: slide 9s infinite linear;
     }
+    .horizontal_slider{
+        display: flex;
+        width: 30%;
+        height: 50px;
+        margin: 5px;
+        overflow-x: scroll;
+        box-sizing: border-box;
+        cursor: pointer;
+    }
+    
     .container .box:hover .content{
-        transform: translate(0,35px);
+        transform: translate(0,10px);
     }
 
     .container .box:hover .imgBx{
-        transform: translate(0,-35px);
+        transform: translate(0,-10px);
     }
 }
