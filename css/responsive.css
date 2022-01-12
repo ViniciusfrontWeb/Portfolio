@@ -11,9 +11,11 @@
     }
     .horizontal_slider{
         display: flex;
-        width: 20%;
-        height: 90px;
-        overflow-x: scroll;
+        max-width: 20%;
+        max-height: 90px;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
         box-sizing: border-box;
         cursor: pointer;
     }
