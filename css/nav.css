@@ -81,7 +81,7 @@ ul li a:hover{
     background: #b18a8b;
 }
 
-input[type="checkbox"]{
+input[type="radio"]{
     display: none;
 }
 .bg{

@@ -1,23 +1,11 @@
-/*footer{
+footer{
     width: 100%;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    left: 0;
-    background-color: #98adac;
+    background: #d6e6ee;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
-}
-.logo{
-    height: 0px;
-    align-items: center;
-}
-.copyright{
-     height: 44px;
-    color: rgb(20, 19, 19);
-    font-size: 14px;
-    text-align:center;
-    align-items: center;
-
+    text-align: center;
+    padding: 20px;
 }
