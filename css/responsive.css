@@ -1,9 +1,17 @@
 @media (max-width:568px) {
     .control{
-        top: 10%;  
+        top: 7%;  
         height:60px;
+        left: 35%;
         transform: translate(50%,-50%);
         animation: slide 9s infinite linear;
+    }
+    .card{
+        position: relative;
+        width: 322px;
+        height: 239px;
+        background: #92ccbf;
+        overflow: hidden;
     }
 
 }

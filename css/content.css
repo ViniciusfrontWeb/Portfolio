@@ -1,67 +1,53 @@
-.card{
-    position: relative;
-    width: 322px;
-    height: 239px;
-    background: #92ccbf;
-    overflow: hidden;
+#home{
+    display: flex;
+    flex-direction: column;
+    background-color: (0,0,0,0.5);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    z-index: -1;
 }
-#hk, .toggle{
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    bottom: 20px;
-    right: 20px;
-    outline: none;
-    z-index: 10;
-}
-
-#hk{
-    opacity: 0;
-}
-.toggle{
-    pointer-events: none;
-    border-radius: 50%;
-    background: #fff;
-    transition: 0.5s;
-    text-align: center;
-    line-height: 50px;
-    font-size: 20px;
-    box-shadow: 0 0 0 0px #997c9e;
-}
-
-#hk:checked ~ .toggle{
-    box-shadow: 0 0 0 500px #997c9e;
-    transform: rotate(225deg);
-}
-
-.imgBx ,.details{
+#home::before{
+    content: "";
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
+    background: url('../icon/football.jpg') no-repeat center center/cover;
+    height: 1300px;
     width: 100%;
-    height: 100%;
-}
-.details{
-    padding: 20px;
-    box-sizing: border-box;
-    z-index: 11;
-    pointer-events: none;
-    transition: 0.5s;
-    opacity: 0;
+    z-index: -1;
+    opacity: .8;
 }
 
-input:checked ~ .details{
-    opacity: 1;
-    transition-delay:0.5s ;
+.main{
+    display: flex;
+    flex-direction: column;
+   /* border: 1px solid white;*/
+    align-items: center;
+    position: absolute;
+    top: 50px;
+    right: 5%;
 }
 
-.details h2{
-    margin-bottom: 5px;
+.headings{
+    font-family: century;
+    font-size: 3rem;
+    text-align: center;
+    margin: 40px 0px;
+}
+.btn{
+    padding: 5px 15px;
+    background-color: transparent;
+    border: 1px solid rgb(119, 201, 201);
     color: #fff;
+    transition: .6s ease;
 }
 
-.details p{
-    margin:0;
-    padding: 0;
-    color: #fff;
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color:#000;
+    box-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15 #fff;
 }
+

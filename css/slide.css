@@ -4,7 +4,7 @@
     top: 15%;
     width: 10%;
     height:115px;
-    left: 25%;
+    left: 30%;
     background-size: 100% 100%;
     transform: translate(50%,-50%);
     position: absolute;
@@ -18,15 +18,15 @@
         background-image: url('../slide/brasil.png');
     }
     45%{
-        background-image: url('../slide/venezuela.png');
+        background-image: url('../slide/germany.png');
     }
     60%{
-        background-image: url('../slide/united\ states.png');
+        background-image: url('../slide/croatia.png');
     }
     80%{
-        background-image: url('../slide/peru.png');
+        background-image: url('../slide/denmark.png');
     }
     100%{
-        background-image: url('../slide/paraguay.png');
+        background-image: url('../slide/spain.png');
     }
 }
