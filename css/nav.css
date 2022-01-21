@@ -77,9 +77,8 @@ ul li span{
     padding-left: 10px;
 }
 
-ul li a:hover{
-    background: #b18a8b;
-}
+
+
 
 input[type="radio"]{
     display: none;
