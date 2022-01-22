@@ -27,5 +27,16 @@
     .wrapper h2{
         font-size: 7px;
     }
+    #home::before{
+        content: "";
+        position: absolute;
+        top: 0;
+        right: 0;
+        background: url('../icon/football.jpg') no-repeat center center/cover;
+        height: 1300px;
+        width: 100%;
+        z-index: -1;
+        opacity: .8;
+    }
     
 }
